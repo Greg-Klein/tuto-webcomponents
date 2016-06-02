@@ -1,0 +1,50 @@
+<!-- Import de polymer -->
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+<style></style>
+
+<!-- Définition de l'élément -->
+<dom-module id="custom-element">
+
+    <style></style>
+
+    <template>
+        <h1>Hello {{name}}!</h1>
+    </template>
+    
+    <!-- Enregistrement de l'élément -->
+    <script>
+    Polymer({
+        is: 'custom-element',
+
+        properties: {
+            name: {type: String, value: "World"}
+        },
+    
+        /* Méthode executée lors de la création de l'élément */
+        created: function() {
+
+        },
+    
+        /* Méthode executée lorsque l'élément est prêt */
+        ready: function() {
+
+        },
+    
+        /* Méthode executée lorsque l'élément est attaché au DOM de la page */
+        attached: function() {
+
+        },
+    
+        /* Méthode executée lorsque l'élément est détaché du DOM */
+        detached: function() {
+
+        },
+    
+        /* Méthode executée lors de la modification d'un attribut de l'élément */
+        attributeChanged: function(name, type) {
+
+        }
+    });
+    </script>
+</dom-module>
